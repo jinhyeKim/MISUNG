@@ -13,6 +13,9 @@ header{
   height: 100px;
   background-color: rgb(191, 191, 247);
 }
+ul{
+  list-style: none;
+}
 #container{
   margin: 0 auto;
   width: 1200px;
@@ -21,9 +24,11 @@ header{
   float: left; 
   width: 250px;
   height: 100px;
+  padding-left: 20px;
+  line-height: 100px;
 } 
 #logo h1{
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  font-family: 'Rubik Doodle Shadow' ;
   font-weight: 700;
   font-size: 40px; 
   color: #fff;
@@ -34,7 +39,7 @@ nav{
   width: 900px;
   height: 100px;
   float: right;
-  background-color: green;
+  padding-top: 40px;
 
 }
 #slideShow{
